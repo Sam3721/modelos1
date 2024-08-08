@@ -1,0 +1,2 @@
+Este código utiliza el principio de programación de abierto/cerrado de manera que la clase principal llamada "Notificación" es una interface pública cuyos métodos se pueden usar para modificar y agregarle contenido al código, sin modificar el código principal.
+Las clases implementadas en ese código como lo son "Email" y "SMS" son agregadas gracias a la abstracción de "Notificación" y a su método, y la clase servicio permite adecuar un mensaje según el medio de comunicación del usuario
